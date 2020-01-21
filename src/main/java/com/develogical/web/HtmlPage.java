@@ -21,6 +21,7 @@ public abstract class HtmlPage {
     }
 
     private void writeFooterTo(PrintWriter writer) {
+        writer.println("<p>Hello</p>");
         writer.println("</body>");
         writer.println("</html>");
     }
